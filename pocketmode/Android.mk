@@ -9,9 +9,6 @@ LOCAL_PACKAGE_NAME := XiaomiPocketMode
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 
-LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.cyanogenmod.platform
-
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 include $(BUILD_PACKAGE)
