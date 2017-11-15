@@ -350,4 +350,7 @@
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex"</item>
     </string-array>
+
+    <!-- Whether home button can wake device -->
+    <bool name="config_homeCanWake">true</bool>
 </resources>
