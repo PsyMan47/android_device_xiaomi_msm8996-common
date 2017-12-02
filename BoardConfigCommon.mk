@@ -111,7 +111,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # CM Hardware
-BOARD_HARDWARE_CLASS += \
+#BOARD_HARDWARE_CLASS += \
     hardware/cyanogen/cmhw \
     $(VENDOR_PATH)/cmhw
 BOARD_USES_CYANOGEN_HARDWARE := true
@@ -189,7 +189,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
 # RIL
 BOARD_RIL_CLASS := ../../../$(VENDOR_PATH)/ril
 PROTOBUF_SUPPORTED := true
-TARGET_RIL_VARIANT := caf
+#TARGET_RIL_VARIANT := caf
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk

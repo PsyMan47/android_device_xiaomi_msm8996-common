@@ -114,8 +114,8 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:/system/etc/usb_audio_policy_configuration.xml
 
 # Camera
-PRODUCT_PACKAGES += \
-    SnapdragonCamera
+#PRODUCT_PACKAGES += \
+#    SnapdragonCamera
 
 # CNE
 PRODUCT_PACKAGES += \

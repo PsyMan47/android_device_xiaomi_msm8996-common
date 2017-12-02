@@ -30,7 +30,7 @@ import java.io.File;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
-import com.android.internal.util.cm.FileUtils;
+import com.cyanogenmod.settings.device.utils.FileUtils;
 
 public class ButtonSettingsFragment extends PreferenceFragment
         implements OnPreferenceChangeListener {

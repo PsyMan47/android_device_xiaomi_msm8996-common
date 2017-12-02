@@ -43,6 +43,7 @@ media.camera.ts.monotonic=0
 persist.camera.gyro.disable=0
 persist.camera.HAL3.enabled=1
 persist.camera.imglib.fddsp=1
+camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm,com.google.android.GoogleCamera,com.oneplus.camera,com.android.camera2
 
 # CNE
 persist.cne.feature=1
