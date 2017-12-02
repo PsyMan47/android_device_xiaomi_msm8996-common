@@ -352,5 +352,6 @@
     </string-array>
 
     <!-- Whether home button can wake device -->
+    <add-resource type="bool" name="config_homeCanWake">true</add-resource>
     <bool name="config_homeCanWake">true</bool>
 </resources>
